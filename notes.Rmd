@@ -1,0 +1,116 @@
+---
+title: "chapter1"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cloud Computing
+
+### Chapter 1
+
+
+#### The importance of the cloud
+
+
+#### Cloud computing growing further
+266.4 billion dollars in 2020, projected to 354.6 billion dollars. 
+
+#### Cloud computing definition
+Cloud computing is the delivery of technology services - including compute, storage, databases, networking, software, and many more - over the internet with pay-as-you-go pricing. 
+
+Use case - hosting a website. Users learn on DataCamp. Free week increases traffic. Hosting a website using an on-premise server. 
+
+Server - powerful computer; you can connect to remotely; Located on the premises.
+
+Hosting a website using an on-premise server. More people start using the website. Buy/rent new servers. Take time to set up. Cost a lot of money.
+
+Hosting a website using a cloud server. Access to computing power instantly when you need it. More people start using the website, easily release redundant cloud servers. Pay-as-you go service. 
+
+Cloud - Scalable, fast set-up speed, Pay-as-you-go.
+
+On-premise - Less scalable, takes to set up, ongoing costs. 
+
+#### Other uses of cloud computing
+
+Store, back up and recover data.
+Create cloud-native applications.
+Stream audio and video.
+Deliver software on demand.
+Analyze data. 
+
+#### Cloud services
+three top technology services on the Cloud. compute, storage, databases. 
+Compute, provide the brains to process your workload.
+Storage: save and store the data.
+Databases: store more structured sets of data.
+
+##### Virtualization
+
+Physical server: multiple virtual servers. 
+Maximizes the output of individual servers.
+Economies of scale.
+
+##### Scalability 
+Handling traffic. 
+Vertical scaling: Increase the power of the instance. 
+Horizontal scaling: Add ore instances.
+
+##### Cost
+Only pay for resources when you are using them. No capital expenses of: buying hardware and software, managing on-site infrastructure. In some cases, an on-premise solution might be more cost-efficient. The best solution depends on the use case. 
+
+
+##### Speed
+Immediate access to ready-to-go cloud services. 
+
+
+##### Performance 
+Access to fast and efficient computing resources. Data center: houses an organization's IT operations and equipment. 
+
+Cloud gives access to worldwide network of data centers, fast and efficient computing hardware. 
+
+##### Growth
+Grow using a wide range of resources and services
+
+##### Reliability
+Guaranteed durability and availability of data and services. 
+
+##### Security
+Secure storage and management of your data. External party responsible for security. Particularly risky for business in highly regulated sectors. Cloud is becoming more and more secure. 
+
+
+#### Cloud service models
+On-premise: buying a car. 
+Cloud: Renting a car. economies at scale.
+
+On premise -- car owned.
+
+Infrastructure as a service -- car rented.
+
+Platform as a service -- ride sharing.
+
+Software as a service -- public transport. 
+
+abstraction and control (the cloud pyramid). Function as a service, variation of Saas. Anything as a service.
+
+
+
+<!-- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>. -->
+
+<!-- When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this: -->
+
+<!-- ```{r cars} -->
+<!-- summary(cars) -->
+<!-- ``` -->
+
+<!-- ## Including Plots -->
+
+<!-- You can also embed plots, for example: -->
+
+<!-- ```{r pressure, echo=FALSE} -->
+<!-- plot(pressure) -->
+<!-- ``` -->
+
+<!-- Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot. -->
