@@ -189,4 +189,192 @@ Software as a service -- public transport.
 abstraction and control (the cloud pyramid). Function as a service,
 variation of Saas. Anything as a service.
 
+\hypertarget{chapter-2---cloud-deployment-model}{%
+\subsubsection{Chapter 2 - Cloud deployment
+model}\label{chapter-2---cloud-deployment-model}}
+
+Important decision in cloud adoption. How much control do you need over
+your cloud environment?
+
+\hypertarget{private}{%
+\paragraph{Private}\label{private}}
+
+Cloud infra is designated for exclusive use by its tenants. Private
+clouds are accessed by a network link.
+
+Pros: Direct control of resources and data, e.g., operating systems.
+
+Cons: More upfront investment.
+
+Unlike on-premise, private cloud uses virtualization for on-demand
+compute resources and can be off-premises.
+
+\hypertarget{public}{%
+\paragraph{Public}\label{public}}
+
+Cloud infra is shared and open for use by the general public. It's owned
+and managed by a cloud service provider. Public clouds are internet
+accessible.
+
+Pros: Get started quickly with minimal investment. Easier to scale.
+
+Cons: No access to data center and hardware.
+
+\hypertarget{hybrid}{%
+\paragraph{Hybrid}\label{hybrid}}
+
+Organization uses a combination of two or more distinct models.
+Different models interact via links. Example: application on public,
+customer data stored on private. when private cloud hits capacity,
+temporarily move to the public cloud to avoid disruption of service.
+
+\hypertarget{other-deployment-models}{%
+\paragraph{Other deployment models}\label{other-deployment-models}}
+
+Multicloud: combination of different cloud provider services.
+Flexibility on pricingt plans and service offerings.
+
+\hypertarget{community}{%
+\paragraph{Community}\label{community}}
+
+Infra shared by a specific community for exclusive use. Common interest
+of concern, e.g., security, jurisdication, mission.
+
+\hypertarget{regulations-on-the-cloud}{%
+\paragraph{Regulations on the cloud}\label{regulations-on-the-cloud}}
+
+Having servers around the globe can reduce the latency. The greater the
+distance between two points, the longer it will take for data to get
+there.
+
+An example of data privacy law: General Data Protection Regulation
+(GDPR), regulates how personal data is collected, processed, and stored
+from users in the European Union.
+
+Examples: Users must explicitly consent to data collection. Nofity users
+of any data breaches. Personal data information must be encrypted,
+anonymized, and/or pseudonymized. Personal data can't leave EU borders,
+unless you can guarantee the same level of protection.
+
+What is personal data? Any information that related to an identified of
+identifiable living individual. Different pieces of information, which
+collected together can lead to identification of a particular person.
+
+Personally identifiable information (PII).
+
+Other regulations.
+
+\hypertarget{cloud-roles}{%
+\paragraph{Cloud roles}\label{cloud-roles}}
+
+Cloud adoption can reduce maintenance and operational costs, including
+personnel. Cloud-related skills in job market. Cloud computing skills.
+All Cloud providers have established certifications for roles.
+
+Familiar data roles and the cloud -
+
+\begin{itemize}
+\item Data Scientist: Run computationally expensive analyses on the cloud.
+\item Machine Learning Scientist: train and deploy ML models on the cloud.
+\item Data engineer: Build pipelines on the cloud to ingest, transform, and store big data.
+\item Data analyst: Access data on the cloud via business intelligence tools.
+\end{itemize}
+
+Creation of new roles -
+
+\begin{itemize}
+\item Cloud architect: Design cloud infra for a given business problem.
+\item Cloud engineer: Build, maintain and monitor cloud services.
+\item DevOps engineer: Software development and IT Operations. Ensure reliability, availability and scalability of the cloud through software development and automation.
+\item Security engineer: Spec security requirements. 
+\end{itemize}
+
+\hypertarget{chapter-3-case-study}{%
+\subsubsection{Chapter 3: Case study}\label{chapter-3-case-study}}
+
+\hypertarget{amazon-web-services}{%
+\paragraph{Amazon Web Services}\label{amazon-web-services}}
+
+AWS: Q4 2019 market share: 32.4\%, revenue: 9.8 Billion, annual growth:
+33.2\%. currently the market leader. Personal cloud: Amazon drive,
+Amazon photos. Professional Cloud: AWS S3 (File Storage), AWS EC2
+(Computation), AWS RDS (Databases).
+
+AWS data services: Redshift (analytics - datawarehousing); Kineses (real
+time data movement and analytics); SageMaker (predictive analytics and
+machine learning).
+
+AWS 2006, Google Cloud 2008, MSFT Azure 2010.
+
+AWS case study, compay: NerdWallet, Problem: Takes too long to deploy
+machine learning models. Solution: Amazon Sagemaker. NerdWallet,
+modernized data science engineering.
+
+\hypertarget{microsoft-azure}{%
+\paragraph{Microsoft Azure}\label{microsoft-azure}}
+
+Personal cloud: OneDrive
+
+Professional Cloud: Azure Blob Storage (File Storage), Computation
+(Azure Virtual Machines), Databases (Azure SQL Database).
+
+Azure's data services: Data Lake Storage (store data before cleaning);
+Stream analytics (real-time analytics); Machine Learning (train and
+deploy machine learning models).
+
+Azure's strength: Integration with Microsoft products, benefits from
+customer loyalty, top-of-mind choice.
+
+Azure case study: Ottawa Hospital.
+
+Needs: Cost effective and secure disaster recovery solution. Electronic
+health record. Microsoft IaaS (secure, scalable environment). Azure
+Storage (medical imaging data). Azure Site Recovery (automatically
+deploy recovery processes).
+
+Improvements: New scure, up-to-date, policy compliant disaster recovery
+site in under 3 months. Compliant with data privacy regulations. Saved
+\textasciitilde{} 50\% on disaster recovery costs.
+
+\hypertarget{google-cloud}{%
+\paragraph{Google Cloud}\label{google-cloud}}
+
+Q4 2019 revenue: 1.8 billion. Q4 2019 market share: 6\%.
+
+Personal Cloud: Google Drive, Google Photos. Professional Cloud: Google
+Cloud storage (File Storage); Google Compute Engine (Computation);
+Google Cloud SQL (Databases).
+
+Google Cloud data services: Big query (data warehouse); Dataflow (batch
+and stream data processing); AutoML (machine learning model training and
+deployment).
+
+Google Cloud's strength: Multicloud. Run hybrid multicloud solutions:
+manage and deploy across several cloud providers.
+
+Google Cloud case study: LUSH (only vegetarian)
+
+Needs: outages during heavy traffic on boxing day.
+
+Solution: Migrate entire global infra to Google Cloud. Google Cloud
+Compute Engine and SQL. 40\% reduction in hosting costs.
+
+\hypertarget{other-actors-and-thoughts}{%
+\paragraph{Other actors and thoughts}\label{other-actors-and-thoughts}}
+
+Alibaba Cloud (5.4\%), revenue: 1.6 billion dollars, annual growth:
+71.1\%. No personal file storage.
+
+IBM (1.8\%), revenue: 530 million dollars.
+
+Oracle (smaller).
+
+Cloud competition is fierce. SaaS tells a different story. Best provider
+is the one meeting your needs. Cost of running a data center, physical
+hardware, storage; cost of applications; costs of hiring; benefits.
+
+Future of the cloud: Growing amount of data. AI needs computing
+resources. Smart cities need an underlying infrastructure. Serverless
+architectures are more and more popular.
+
 \end{document}
